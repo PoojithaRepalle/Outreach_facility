@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".button7">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1B1B1B"
+        android:visibility="visible"
+        android:clickable="false"
+        /><!-- Semi-transparent black color -->
+
+
+    <!-- Add other views or controls here if needed -->
+    <Button
+        android:id="@+id/dummy_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+</RelativeLayout>

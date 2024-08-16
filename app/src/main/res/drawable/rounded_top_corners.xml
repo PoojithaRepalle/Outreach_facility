@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/rounded_glass_corners.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Set the size of the shape -->
+    <size
+        android:width="200dp"
+        android:height="200dp" />
+
+    <!-- Rounded Corners -->
+    <corners
+        android:topLeftRadius="30dp"
+        android:topRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"/>
+
+    <!-- Glass Effect Gradient -->
+    <gradient
+        android:startColor="#27464646"
+    android:endColor="#3ECABCBC"
+    android:type="linear"
+    android:angle="90" />
+
+</shape>

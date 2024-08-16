@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Button1">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Semi-transparent black color overlay -->
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1B1B1B"
+        android:visibility="visible"
+        android:clickable="false" />
+
+    <!-- Full-screen black overlay with loading text -->
+    <FrameLayout
+        android:id="@+id/ooverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:visibility="gone"
+
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:text="Loading..."
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <!-- Dummy button or other views -->
+    <Button
+        android:id="@+id/dummy_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true" />
+
+</RelativeLayout>

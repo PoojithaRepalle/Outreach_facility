@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color> <!-- Replace with your primary color -->
+    <color name="colorPrimaryDark">#303F9F</color> <!-- Replace with your dark color -->
+    <color name="colorAccent">#FF5722</color> <!-- Replace with your accent color -->
+    <color name="white">#FFFFFF</color> <!-- Replace with your accent color -->
+
+</resources>

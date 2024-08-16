@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent='Theme.AppCompat.NoActionBar'>
+        <item name="android:windowContentTransitions">true</item>
+
+
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+
+
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/material_dynamic_primary0</item>
+        <item name="colorPrimaryDark">#D9000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+
+
+
+        <!-- Add more customizations if needed -->
+    </style>
+
+</resources>
